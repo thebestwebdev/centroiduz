@@ -273,8 +273,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h1>Say Hello</h1>
-							<p>If you have any question, please get in touch via contact form.</p>
+							<h1>Оставьте ваш номер телефона</h1>
+							<p>и мы обязательно свяжемся с вами</p>
 							<span></span>
 						</div>
 					</div>
@@ -282,23 +282,15 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 						<div class="contact">
-							<form id="contact-form" method="post" enctype="multipart/form-data">
+							<form id="contact-form" action="https://getsimpleform.com/messages?form_api_token=5b63a513178365f54f7a4fe8d13ac26f" method="post">
+								<input type='hidden' name='redirect_to' value='https://coin-info.uz/'>
 								<div class="row">
-									<div class="form-group col-md-6">
-										<input type="text" name="name" class="form-control" id="first-name" placeholder="Name" required="required">
-									</div>
-									<div class="form-group col-md-6">
-										<input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
-									</div>
 									<div class="form-group col-md-12">
-										<input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required="required">
-									</div>
-									<div class="form-group col-md-12">
-										<textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
+										<input type="tel" name="your-phone" class="form-control" id="your-phone" placeholder="Ваш номер телефона..." required="required">
 									</div>
 									<div class="col-md-12 text-center">
 										<div class="actions">
-											<input type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!" />
+											<input type="submit" value="Отправить" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Отправить ваш номер телефона!">
 										</div>
 									</div>
 								</div>
