@@ -889,6 +889,8 @@ padding-top: 120px;
 */
 .contact {}
 .contact input {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
 	background: none;
 	border-bottom: 2px solid #333;
 	border-radius: 0px;
@@ -958,13 +960,15 @@ background:#1794bb!important;
 background:#1794bb ;
   border-top: 1px solid #1794bb ;
 }
-.contact_details{}
+.contact_details{
+    font-family: 'Jura', sans-serif;
+}
 .contact_details h3 {
 	color: #fff;
 	margin-bottom: 15px;
 	text-transform: uppercase;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: bold;
 }
 .contact_details ul{}
 .contact_details ul li{color: #fff;line-height: 24px;}
@@ -994,6 +998,7 @@ margin-bottom: 0px;
 .footer_social ul li a:hover { color: #fff }
 /*END FOOTER SOCIAL DESIGN*/
 .copyright p {
+font-family: 'Jura', sans-serif;    
 color: #fff;
 margin-bottom: 0;
 padding-top: 12px;
