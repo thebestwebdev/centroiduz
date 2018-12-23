@@ -25,7 +25,7 @@ Version      : 1.0
 */
 body {
 color: #767676;
-font-family: 'PT Sans', sans-serif;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 font-size: 16px;
 line-height: 22px;
 font-weight: 400;
@@ -86,7 +86,7 @@ b, strong {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 99999;	
+    z-index: 99999;
 }
 .spinner {
 	width: 50px;
@@ -109,7 +109,7 @@ b, strong {
   position: absolute;
   top: 0;
   left: 0;
-  
+
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
 }
@@ -125,10 +125,10 @@ b, strong {
 }
 
 @keyframes sk-bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
@@ -162,7 +162,7 @@ width: 70px;
   width: 70%;
   font-size: 18px;
 }
-@media only screen and (max-width:768px) { 
+@media only screen and (max-width:768px) {
 .section-title p {width: 90%;}
 }
 /*END SECTION TITLE DESIGN*/
@@ -303,7 +303,7 @@ background:#1794bb;
     z-index: -1;
 }
 .header-text-blog{}
-.header-text-blog h1{	
+.header-text-blog h1{
 padding-top:250px;
 font-weight: 600;
 margin: 0;
@@ -513,7 +513,7 @@ background:#1794bb;
 
 .about-me {}
 .about-me-content{margin-top: 60px;}
-@media only screen and (max-width:768px) { 
+@media only screen and (max-width:768px) {
 .about-me-img img{width:100%;margin-bottom:60px;}
 }
 .about-me-content h2 {
@@ -521,7 +521,7 @@ background:#1794bb;
 	line-height: 48px;
 	font-size: 38px;
 }
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:480px) {
 .about-me-content h2 {font-size: 30px;line-height: 38px;}
 }
 .about-me-content ul {margin:30px 0;}
@@ -535,7 +535,7 @@ background:#1794bb;
 	padding: 5px 20px;
 	border-radius: 3px;
 }
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:480px) {
 .about-me-content ul li {margin-bottom:10px;}
 }
 .about-me-content p{margin-bottom:20px;line-height: 24px;}
@@ -732,7 +732,7 @@ background:#1794bb;
 .company-logo{
 background:#f7f7f7;
 }
-@media only screen and (max-width:768px) { 
+@media only screen and (max-width:768px) {
 .company-logo{padding-bottom:20px;}
 }
 .single-company-logo {}
@@ -742,7 +742,7 @@ background:#f7f7f7;
 .single-company-logo img {
 	width: 130px;
 }
-@media only screen and (max-width:768px) { 
+@media only screen and (max-width:768px) {
 .single-company-logo img {margin-bottom:30px;}
 }
 /*
@@ -869,7 +869,7 @@ font-size: 40px;
 line-height: 50px;
 margin: 0 auto 30px;
 }
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:480px) {
 .promotion_content p{
 font-size: 30px;
 padding-top: 120px;
@@ -881,7 +881,7 @@ padding-top: 120px;
  * 09.END PROMOTION DESIGN
  * ----------------------------------------------------------------------------------------
  */
- 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 10.START CONTACT DESIGN
@@ -976,7 +976,7 @@ background:#1794bb ;
 margin-top:40px;
 margin-bottom: 0px;
 }
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:480px) {
 .footer_social{margin-top:60px;}
 }
 .footer_social ul {
@@ -992,13 +992,13 @@ margin-bottom: 0px;
 	margin-right: 16px;
 	transition: all 0.2s ease 0s;
 }
-@media only screen and (max-width:480px) { 
+@media only screen and (max-width:480px) {
 .footer_social ul li a{margin-bottom:10px;}
 }
 .footer_social ul li a:hover { color: #fff }
 /*END FOOTER SOCIAL DESIGN*/
 .copyright p {
-font-family: 'Jura', sans-serif;    
+font-family: 'Jura', sans-serif;
 color: #fff;
 margin-bottom: 0;
 padding-top: 12px;
