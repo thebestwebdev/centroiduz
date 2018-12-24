@@ -42,12 +42,12 @@ h5,
 h6 {
   letter-spacing: 0px;
   margin-top: 0px;
- font-family: 'Jura', sans-serif;
+ font-family: "Jura", "Courier New", Courier, sans-serif;
   color: #333;
   font-weight: 400;
 }
 a {
-	font-family: 'Jura', sans-serif;
+	font-family: "Jura", "Courier New", Courier, sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -889,7 +889,7 @@ padding-top: 120px;
 */
 .contact {}
 .contact input {
-    font-family: 'Jura', sans-serif;
+    font-family: "Jura", "Courier New", Courier, sans-serif;
     font-weight: bold;
 	background: none;
 	border-bottom: 2px solid #333;
@@ -961,7 +961,7 @@ background:#1794bb ;
   border-top: 1px solid #1794bb ;
 }
 .contact_details{
-    font-family: 'Jura', sans-serif;
+    font-family: "Jura", "Courier New", Courier, sans-serif;
 }
 .contact_details h3 {
 	color: #fff;
@@ -998,7 +998,7 @@ margin-bottom: 0px;
 .footer_social ul li a:hover { color: #fff }
 /*END FOOTER SOCIAL DESIGN*/
 .copyright p {
-font-family: 'Jura', sans-serif;
+font-family: "Jura", "Courier New", Courier, sans-serif;
 color: #fff;
 margin-bottom: 0;
 padding-top: 12px;
