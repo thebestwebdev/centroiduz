@@ -12,7 +12,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {
@@ -131,3 +131,5 @@ particlesJS('particles-js',
   }
 
 );
+
+document.getElementById('copyright-text').innerHTML = "&copy; CENTROID.UZ " + (new Date()).getFullYear() + " - Все права защищены.";
