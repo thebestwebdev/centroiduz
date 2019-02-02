@@ -1,8 +1,8 @@
-- name: Home
+- name: Главная
   link: index.html#home
-- name: About
+- name: О нас
   link: index.html#about
-- name: Testimonial
+- name: Отзывы
   link: index.html#testimonial
-- name: Contact
+- name: Контакты
   link: index.html#contact
