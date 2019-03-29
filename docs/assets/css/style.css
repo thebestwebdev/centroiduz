@@ -42,7 +42,7 @@ h5,
 h6 {
   letter-spacing: 0px;
   margin-top: 0px;
- font-family: "Jura", "Courier New", Courier, sans-serif;
+  font-family: "Jura", "Courier New", Courier, sans-serif;
   color: #333;
   font-weight: 400;
 }
@@ -245,7 +245,7 @@ width: 35px;
     vertical-align: middle;
 }
 
-.header-text h1{
+.header-text h2{
 color: #fff;
 font-size: 70px;
 font-weight:600;
@@ -254,13 +254,13 @@ overflow: hidden;
 padding-bottom: 15px;
 }
 @media only screen and (max-width: 768px) {
-.header-text h1{font-size: 60px;}
+.header-text h2{font-size: 60px;}
 }
 @media only screen and (max-width: 480px) {
-.header-text h1{font-size: 40px;}
+.header-text h2{font-size: 40px;}
 }
 @media only screen and (max-width: 375px) {
-.header-text h1{font-size: 26px;}
+.header-text h2{font-size: 26px;}
 }
 .header-text h3 {
     display: inline-block;
@@ -1009,8 +1009,13 @@ padding-top: 12px;
 * ----------------------------------------------------------------------------------------
 */
 
-
-
+.h1 {
+    letter-spacing: 0px;
+    margin-top: 0px;
+    font-family: "Jura", "Courier New", Courier, sans-serif;
+    color: #333;
+    font-weight: 400;
+}
 
 
 
