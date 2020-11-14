@@ -107,23 +107,22 @@ layout: compress
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 						<div class="contact">
-							<div class="row">
-								<div class="form-group col-md-12">
-									<input type="tel" class="form-control" id="callBackPhoneNumber" placeholder="Ваш номер телефона..." required="required">
-								</div>
-								<div class="col-md-12">
-									<div class="text-center">
-										<p id="phoneNumberSubmitting" style="display: none;">Подождите, пожалуйста ...</p>
-										<p id="phoneNumberSubmitSucceeded" style="display: none;">Спасибо, мы вам позвоним!</p>
-										<p id="phoneNumberSubmitFailed" style="display: none;">Произошла ошибка! Попробуйте отправить ваш номер телефона ещё раз, пожалуйста!</p>
+							<form id="contact-form" action="https://api.staticforms.xyz/submit" method="post">
+								<input type="hidden" name="accessKey" value="80c74488-da9b-4368-91cb-b915ecca2d3b">
+								<input type="text" name="honeypot" style="display: none;">
+								<input type="hidden" name="redirectTo" value="https://centroid.uz">
+								<input type="hidden" name="subject" value="Call me from - https://centroid.uz">
+								<div class="row">
+									<div class="form-group col-md-12">
+										<input type="tel" name="message" class="form-control" id="your-phone" placeholder="Ваш номер телефона..." required="required">
+									</div>
+									<div class="col-md-12 text-center">
+										<div class="actions">
+											<input type="submit" value="Отправить" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Отправить ваш номер телефона!">
+										</div>
 									</div>
 								</div>
-								<div class="col-md-12 text-center">
-									<div class="actions">
-										<button id="submitPhoneNumberBtn" class="btn btn-lg btn-contact-bg" title="Отправить ваш номер телефона!">Отправить</button>
-									</div>
-								</div>
-							</div>
+							</form>
 						</div>
 					</div><!-- END COL  -->
 				</div><!--END  ROW  -->
@@ -189,28 +188,6 @@ layout: compress
 		<!-- scripts js -->
 			<script src="assets/js/scripts.min.js"></script>
 
-			<script>
-				$( "#submitPhoneNumberBtn" ).click(function() {
-					$("#phoneNumberSubmitting").show();
-					$("#phoneNumberSubmitSucceeded").hide();
-					$("#phoneNumberSubmitFailed").hide();
-					$('#submitPhoneNumberBtn').prop('disabled', true);
-					$.post( "https://hooks.slack.com/services/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",
-									"payload={ \"text\": \"" + $('#callBackPhoneNumber').val() + "\" }" )
-									.done(function() {
-										$("#phoneNumberSubmitFailed").hide();
-				    				$("#phoneNumberSubmitSucceeded").show();
-				  				})
-									.fail(function() {
-										$("#phoneNumberSubmitSucceeded").hide();
-				    				$("#phoneNumberSubmitFailed").show();
-										$('#submitPhoneNumberBtn').prop('disabled', false);
-				  				})
-									.always(function() {
-										$("#phoneNumberSubmitting").hide();
-				  				});
-				});
-			</script>
 
 			<!-- Yandex.Metrika counter -->
 			<script type="text/javascript" >
